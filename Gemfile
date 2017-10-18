@@ -56,3 +56,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'paperclip', '~> 5.0.0'
 # R&L> Adding haml
 gem 'haml'
+
+# R&L> Adding simple_form
+gem 'simple_form'
