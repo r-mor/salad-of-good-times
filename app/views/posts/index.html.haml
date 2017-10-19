@@ -1,1 +1,5 @@
-%h1 Salad of Good Times
+%h1 Index
+
+-@posts.each do |a|
+	=image_tag a.image.url(:medium)
+	=a.caption
