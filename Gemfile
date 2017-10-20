@@ -59,3 +59,6 @@ gem 'haml'
 
 # R&L> Adding simple_form
 gem 'simple_form'
+
+# R&L> Adding bootstrap
+gem 'bootstrap-sass', '3.3.5'
