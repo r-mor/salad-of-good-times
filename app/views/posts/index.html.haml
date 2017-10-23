@@ -1,5 +1,10 @@
-%h1 Index
-
--@posts.each do |a|
-	=image_tag a.image.url(:medium)
-	=a.caption
+.posts-wrapper.row
+  -@posts.each do |post|
+    .post
+      .post-head
+        .name
+          Randl Morales
+      .image.center-block
+        =link_to (image_tag post.image.url(:medium), class:'img-responsive'), post_path(post)
+      %p.caption
+        =post.caption
