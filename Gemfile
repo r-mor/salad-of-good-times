@@ -62,3 +62,9 @@ gem 'simple_form'
 
 # R&L> Adding bootstrap
 gem 'bootstrap-sass', '3.3.5'
+
+# R&L> Adding device
+gem 'devise'
+
+# R&L> Adding html2haml to convert devise files to haml
+gem 'html2haml'

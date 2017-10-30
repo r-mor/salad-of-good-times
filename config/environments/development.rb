@@ -53,4 +53,7 @@ Rails.application.configure do
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
   # R&L> Paperclip ImageMagcik Location
   Paperclip.options[:command_path] = "/usr/local/bin/"
+
+  #R&L> adding default_url_options for devise
+  config.action_mailer.default_url_options = {host: 'localhost', port: 3000}
 end
